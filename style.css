@@ -9,33 +9,36 @@ body {
 }
 
 .upperbox {
-    display: grid;
-    grid-template-columns: 25% auto;
+  display: grid;
+  grid-template-columns: 470px auto;
+  grid-template-rows: auto;
 }
 
 .title {
-  width: 25rem;
-  height: 13.1rem;
+  width: 400px;
+  height: 210px;
   border-radius: 1rem;
   background: #d9d9d9;
+  margin-left: 10%;
+  margin-top: 15px;
 }
 
 .description {
-  width: 25rem;
-  height: 31.3rem;
+  width: 400px;
+  height: 60%;
   border-radius: 1rem;
   background: #d9d9d9;
-}
-
-.description,
-.title {
-  margin-left: 70px;
+  margin-left: 10%;
+  margin-top: 15px;
 }
 
 .main-image {
-  width: 54.0625rem;
-  height: 45.3125rem;
+  height: 725px;
+  width: 865px;
   background-image: url(Images/Kebabrulle-main.webp);
   background-repeat: no-repeat;
   border-radius: 1rem;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
