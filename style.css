@@ -9,6 +9,8 @@ body {
 }
 
 .upperbox {
+    display: grid;
+    grid-template-columns: 25% auto;
 }
 
 .title {
@@ -31,4 +33,9 @@ body {
 }
 
 .main-image {
+  width: 54.0625rem;
+  height: 45.3125rem;
+  background-image: url(Images/Kebabrulle-main.webp);
+  background-repeat: no-repeat;
+  border-radius: 1rem;
 }
