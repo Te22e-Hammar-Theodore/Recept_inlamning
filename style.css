@@ -12,15 +12,23 @@ body {
 }
 
 .title {
-  width: 400px;
-  height: 210px;
+  width: 25rem;
+  height: 13.1rem;
   border-radius: 15px;
   background: #d9d9d9;
 }
 
 .description {
+  width: 25rem;
+  height: 31.3rem;
+  border-radius: 15px;
+  background: #d9d9d9;
+}
+
+.description,
+.title {
+  margin-left: 70px;
 }
 
 .main-image {
 }
-
