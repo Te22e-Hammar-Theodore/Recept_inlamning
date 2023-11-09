@@ -94,7 +94,7 @@ h1 {
   object-fit: cover;
   border-radius: 1rem;
   margin-top: 15px;
-  margin-right: 40px;
+  
 }
 
 .contacts {
@@ -149,34 +149,34 @@ h1 {
   margin-bottom: 0;
 }
 
-
 .ingredients li {
   background-color: white;
   border-radius: 15px;
   padding: 40px;
-  flex-grow: 1;
   margin-left: -40px;
+  margin-bottom: 15px;
 }
 
-.ingredients ul{
-  display: flex;
-  height: max-content;
-  flex-direction: column;
-  margin: 15px;
-  gap: 15px;
+.ingredients ul {
+  height: 100%;
+  margin: 10px;
   list-style: none;
 }
 
-.li-img{
+.li-img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 25px !important;
-  padding-bottom: 25px !important;
+  padding-top: 22.5px !important;
+  padding-bottom: 22.5px !important ;
 }
 
-.li-img img{
-height: 50px;
-border: solid black 2px;
-border-radius: 5px;
+.li-img img {
+  height: 50px;
+  border: solid black 2px;
+  border-radius: 5px;
+}
+
+.li-img img:hover {
+  opacity: 50%;
 }
