@@ -42,7 +42,7 @@ body {
 .title {
   width: 82.5%;
   height: 210px;
-  border-radius: 1rem;
+  border-radius: 16px;
   background: #d9d9d9;
   margin-left: 60px;
   margin-top: 15px;
@@ -80,7 +80,7 @@ h1 {
 .description {
   width: 82.5%;
   height: 393px;
-  border-radius: 1rem;
+  border-radius: 16px;
   background: #d9d9d9;
   margin-left: 60px;
   margin-top: 15px;
@@ -92,7 +92,7 @@ h1 {
   width: 100%;
   background-image: url(Images/Kebabrulle-main.webp);
   object-fit: cover;
-  border-radius: 1rem;
+  border-radius: 16px;
   margin-top: 15px;
 }
 
@@ -101,7 +101,7 @@ h1 {
   background-color: black;
   height: 100px;
   margin: auto;
-  border-radius: 2rem;
+  border-radius: 32px;
   margin-top: 54px;
   padding-top: 15px;
   text-align: center;
@@ -128,7 +128,7 @@ h1 {
   background-color: #d9d9d9;
   margin-left: 60px;
   margin-top: 15px;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 
 .how-to {
@@ -136,7 +136,7 @@ h1 {
   width: 90%;
   background-color: #d9d9d9;
   margin-top: 15px;
-  border-radius: 1rem;
+  border-radius: 16px;
 }
 
 .h2ing {
